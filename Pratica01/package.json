@@ -1,0 +1,17 @@
+{
+  "name": "Pratica01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependecies":{
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+  
+}

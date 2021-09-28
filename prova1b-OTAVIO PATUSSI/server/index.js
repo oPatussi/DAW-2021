@@ -1,6 +1,7 @@
 const express = require('express');
 const groupRouter = require('./routes/group-router');
 const productRouter = require('./routes/product-router');
+const brandRouter = require('./routes/brand-router');
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 //Demais rotas
 app.use('/groups', groupRouter);
 app.use('/product',productRouter)
+app.use('/brand', brandRouter)
 
 app.listen(PORT, () => {
     console.log(`Executando na porta ${PORT}`);
