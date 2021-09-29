@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 //Demais rotas
 app.use('/groups', groupRouter);
 app.use('/product',productRouter)
-app.use('/brand', brandRouter)
+app.use('/brands', brandRouter)
 
 app.listen(PORT, () => {
     console.log(`Executando na porta ${PORT}`);

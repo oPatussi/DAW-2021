@@ -1,4 +1,4 @@
-const repository = require('../models/product-repository');
+const repository = require('../models/product-repository.js');
 
 module.exports = {
 

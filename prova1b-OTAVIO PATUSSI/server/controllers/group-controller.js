@@ -1,4 +1,4 @@
-const repository = require('../models/group-repository');
+const repository = require('../models/group-repository.js');
 
 module.exports = {
 
