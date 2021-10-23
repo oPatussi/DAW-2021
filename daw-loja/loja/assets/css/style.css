@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    color: #29292e
+}
+header{
+    background-color: #fff;
+}
+header .navbar-brand,
+header nav li a.active,
+header nav li a:hover{
+    color: #a237cc !important;
+}
+header nav li{
+    text-transform: uppercase;
+} 
