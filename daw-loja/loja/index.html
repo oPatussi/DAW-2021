@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +13,17 @@
 
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Daw loja</title>
 </head>
+
 <body>
-    <header class="navbar navbar-expand navbar-light "> 
+    <header class="navbar navbar-expand navbar-light ">
         <div class="container">
             <h1 class="navbar-brand">DAW Loja</h1>
 
@@ -59,99 +61,127 @@
             </div>
             <div class="collection">
                 <div class="card">
-                    <img src="assets/images/collection1.jpg"/>
+                    <img src="assets/images/collection1.jpg" />
                     <div class="card-body">
                         <h5>Coleção</h5>
                         <h4>Feminina</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                         
+
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/images/collection2.jpg"/>
+                    <img src="assets/images/collection2.jpg" />
                     <div class="card-body">
                         <h5>Coleção</h5>
                         <h4>Feminina</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                         
+
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/images/collection3.jpg"/>
+                    <img src="assets/images/collection3.jpg" />
                     <div class="card-body">
                         <h5>Coleção</h5>
                         <h4>Feminina</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                         
+
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/images/collection4.jpg"/>
+                    <img src="assets/images/collection4.jpg" />
                     <div class="card-body">
                         <h5>Coleção</h5>
                         <h4>Feminina</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                         
+
                     </div>
                 </div>
 
             </div>
             <div class="products">
                 <div class="card">
-                    <img src="assets/images/product1.jpg"/>
+                    <img src="assets/images/product1.jpg" />
                     <div class="card-body">
-                        <h5>Conjunto ------------</h5>
-                        <div class="star-rating"></div>
-                        <div class="price">
-                            <h3>R$ 600,00</h3>
-                            <p>10 x R$60,00</p>
-                        </div>>
+                        <h5>Conjunto </h5>
+                        <div class="details">
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="price">
+                                <h3>R$ 600,00</h3>
+                                <p>10 x R$60,00</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/images/product2.jpg"/>
+                    <img src="assets/images/product2.jpg" />
                     <div class="card-body">
-                        <h5>Conjunto ------------</h5>
-                        <div class="star-rating"></div>
-                        <div class="price">
-                            <h3>R$ 600,00</h3>
-                            <p>10 x R$60,00</p>
-                        </div>>
+                        <h5>Conjunto </h5>
+                        <div class="details">
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="price">
+                                <h3>R$ 600,00</h3>
+                                <p>10 x R$60,00</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/images/product3.jpg"/>
+                    <img src="assets/images/product3.jpg" />
                     <div class="card-body">
-                        <h5>Conjunto ------------</h5>
-                        <div class="star-rating"></div>
-                        <div class="price">
-                            <h3>R$ 600,00</h3>
-                            <p>10 x R$60,00</p>
-                        </div>>
+                        <h5>Conjunto </h5>
+                        <div class="details">
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="price">
+                                <h3>R$ 600,00</h3>
+                                <p>10 x R$60,00</p>
+                            </div>
+                        </div>
                     </div>
-                </div> 
+                </div>
 
             </div>
-            <div class="newsletter">
+        </div>
+
+        <div class="newsletter">
+            <div class="container">
                 <h2>Newsletter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <form>
-                    <input type="text" placeholder="INFORME O SEU EMAIL"/>
-                    <button>Inscreva-se</button>
+                    <input type="text" class="form-control form-control-lg" placeholder="INFORME O SEU EMAIL"/>
+                    <button class="btn btn-primary btn-lg">Inscreva-se</button>
                 </form>
-
             </div>
-            <div class="brands">
-                <ul>
-                    <li><img src="assets/images/brand1.png" /></li>
-                    <li><img src="assets/images/brand2.png" /></li>
-                    <li><img src="assets/images/brand3.png" /></li>
-                    <li><img src="assets/images/brand4.png" /></li>
-                    <li><img src="assets/images/brand5.png" /></li>
-                </ul>
 
-                
-            </div>
+        </div>
+
+        <div class="brands">
+            <ul>
+                <li><img src="assets/images/brand1.png" /></li>
+                <li><img src="assets/images/brand2.png" /></li>
+                <li><img src="assets/images/brand3.png" /></li>
+                <li><img src="assets/images/brand4.png" /></li>
+                <li><img src="assets/images/brand5.png" /></li>
+            </ul>
+
+
         </div>
     </main>
 
@@ -187,4 +217,5 @@
         </div>
     </footer>
 </body>
+
 </html>
