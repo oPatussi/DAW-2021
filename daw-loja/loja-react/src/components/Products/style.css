@@ -1,0 +1,16 @@
+.products .card-body h5{
+    font-weight:400;
+}
+.products .details .price{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.products .details .star-rating,
+.products .details .price h3{
+    color: #a237cc
+}
+
+.products .details .price p{
+    font-size: 12px;
+}
