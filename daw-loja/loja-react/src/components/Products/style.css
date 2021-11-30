@@ -14,3 +14,10 @@
 .products .details .price p{
     font-size: 12px;
 }
+.products{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 32px 0;
+    justify-content: center;
+}
