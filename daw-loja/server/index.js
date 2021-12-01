@@ -6,8 +6,11 @@ const app = express();
 
 const PORT = 3333;
 
+const cors = require('cors');
+
 //Middleware
 app.use(express.json());
+app.use(cors());
 
 //Rota principal
 app.get('/', (req, res) => {

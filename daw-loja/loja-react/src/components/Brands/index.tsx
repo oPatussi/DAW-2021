@@ -15,8 +15,6 @@ export function Brands(props: BrandProp){
                   )
                })}
           </ul>
-
-
         </div>
     )
 }
